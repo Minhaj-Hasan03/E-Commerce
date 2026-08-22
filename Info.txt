@@ -1,0 +1,35 @@
+Backend all folder explanation
+
+---config
+        store all configuration
+                --monogdb connectivity
+                --cloudinary connectivity
+
+
+---Middleware
+        store backend Middleware
+        --Multer
+
+
+---Models
+        store mongoose Models
+        --productModel(product database)
+        --userMode(user database)
+
+
+---controllers
+        all logic of backend
+        --userController.js 
+                --logic for login, register
+        --productController.js
+                --logic for add, list, remove, single 
+                
+---routes
+        express server routes
+        create route for controller 
+        
+
+
+__Package.json 
+        if i use require() then the "type": "commonjs"
+        if i use import then type : "module".
